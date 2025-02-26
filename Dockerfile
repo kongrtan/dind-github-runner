@@ -1,5 +1,6 @@
 #FROM ubuntu:22.04
-FROM mcr.microsoft.com/dotnet/sdk:8.0.302-jammy
+#FROM mcr.microsoft.com/dotnet/sdk:8.0.302-jammy
+FROM mcr.microsoft.com/dotnet/runtime:8.0.302-jammy
 
 # 필수 패키지 설치
 RUN apt-get update && apt-get install -y \
